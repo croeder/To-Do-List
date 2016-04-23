@@ -5,8 +5,9 @@
 (def db {:classname "org.postgresql.Driver"
 		 :subprotocol "postgresql"
 		 :subname (str "//127.0.0.1:5432/" dbname)
-	     :user "demoworks"
-		 :password "cap10"
+	     ;; :user "demoworks"
+		 ;; :password "cap10"
+	     :user "postgres"
 		})
 
 
